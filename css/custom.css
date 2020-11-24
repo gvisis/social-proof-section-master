@@ -1,0 +1,77 @@
+.container {
+
+}
+.container.main {
+
+}
+ .left-column {
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+ }
+    .left-column .love {
+
+    }
+    .left-column h1 {
+
+    }
+    .left-column .description {
+        
+    }
+
+.right-column {
+    flex-direction: column;
+}
+    .ratings-row {
+        display: flex;
+        flex-direction: row;
+    }
+        /* ! PRIORITY */
+        .ratings-row.top {
+            align-self: flex-start;
+        }
+        .ratings-row.mid {
+            align-self: center;
+        }
+        .ratings-row.bottom {
+            align-self: flex-end;
+        }
+            .stars {
+
+            }
+            .rate-text {
+
+            }
+
+.footer {
+
+}
+    .footer .cards {
+    }
+
+        .cards .person-row {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+            .cards .person-row img {
+                width: 100%;
+                border: 0;
+                border-radius: 20px;
+            }
+            .cards .person-row > .picture {
+                width: 40px;
+                margin-right: 15px;
+            }
+            .cards .person-row .person-names {
+                display: flex;
+                flex-direction: column;
+
+            }
+            .cards .person-row > span {
+
+            }
+
+        .footer .cards .review {
+
+        }
