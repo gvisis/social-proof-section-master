@@ -10,7 +10,7 @@
 
     /* gaps */
     --cards-gap: 30px;
-    --ratings-gap: 17px;
-    --cards-padding: 32px;
-    --main-padding: 165px;
+    --header-gap: 17px;
+    --cards-padding: 25px;
+    --main-padding: 150px;
 }

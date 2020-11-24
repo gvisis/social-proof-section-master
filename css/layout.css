@@ -1,0 +1,93 @@
+.container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr repeat(6, 180px) 1fr;
+    background-color: var(--description-color);
+}
+.container.main {
+    padding: calc(var(--main-padding) / 2) 0  ;
+    padding-bottom: calc(var(--main-padding) / 3) ;
+    background-color: aqua;
+    
+}
+ .left-column {
+     grid-column: 2 / 5;
+     display: flex;
+     flex-direction: column;
+     padding-right: calc(var(--header-gap) * 2);
+     flex-flow: wrap;
+ }
+    .left-column .love {
+        grid-column: 2 / 4;
+        margin-bottom: var(--header-gap);
+
+    }
+    .left-column h1 {
+        width: 100%;
+
+    }
+    .left-column .description {
+        padding-right: calc(var(--header-gap) * 5);
+    }
+
+.right-column {
+    grid-column: 5 / 8;
+    flex-direction: column;
+    padding: var(--header-gap) 0;
+}
+    .ratings-row {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: var(--header-gap);
+    }
+
+.container.footer {
+    background-color: lightblue;
+
+}
+
+    .footer .cards {
+        padding: var(--cards-padding) 25px var(--cards-padding) 0;
+        flex-wrap: wrap;
+        }
+
+        .footer > .cards.card-left{
+            grid-column: 2/4;
+        }
+        .footer > .cards.card-mid{
+            grid-column: 4/6;
+        }
+        .footer > .cards.card-right{
+            grid-column: 6/8;
+        }
+
+        .footer .cards > .person-row {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-bottom: var(--cards-padding);
+        }
+            .cards .person-row img {
+                width: 100%;
+                border: 0;
+                border-radius: 20px;
+            }
+            .cards .person-row > .picture {
+                width: 40px;
+                margin-right: 15px;
+            }
+            .person-row .person-names {
+                display: flex;
+                flex-direction: column;
+
+            }
+            .cards .person-row .name {
+            }
+            .cards .person-row > span {
+
+            }
+
+        .footer .cards .review {
+
+        }

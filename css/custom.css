@@ -1,0 +1,54 @@
+.container {
+
+}
+.container.main {
+
+}
+ .left-column {
+ }
+    .left-column .love {
+
+    }
+    .left-column h1 {
+
+    }
+    .left-column .description {
+        
+    }
+
+.right-column {
+}
+    .ratings-row {
+
+    }
+        .stars {
+
+        }
+        .rate-text {
+
+        }
+
+.footer {
+
+}
+
+    .footer > .cards {
+
+    }
+
+        .cards .person-row {
+
+        }
+            .cards .person-row > img {
+
+            }
+            .cards .person-row .name {
+
+            }
+            .cards .person-row > span {
+
+            }
+
+        .footer .cards .review {
+
+        }
