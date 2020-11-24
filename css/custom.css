@@ -10,39 +10,60 @@
     flex-flow: wrap;
  }
     .left-column .love {
-
+        width: 100%;
     }
     .left-column h1 {
-
+        width: 80%;
+        font-size: 42px;
+        color: var(--main-color);
     }
     .left-column .description {
-        
+        grid-column: 2 / 4;
+        width: 80%;
+        line-height: 2rem;
+        color: var(--description-color);
     }
 
-.right-column {
+.container .right-column {
+    display: flex;
     flex-direction: column;
 }
-    .ratings-row {
-        display: flex;
-        flex-direction: row;
+    .container .right-column .ratings-row {
+        display: inline-flex;
+        flex-wrap: wrap;
+        background-color: var(--name-color);
+        padding: 15px 15px;
+        align-items: center;
+        border: 0;
+        border-radius: 5px;
+        line-height: 1rem;
     }
+        .main > .right-column > .ratings-row > .stars {
+            display: inline-block;
+            float: left;
+            margin: 0 20px;
+        }
+        .main > .right-column > .ratings-row > .stars > img {
+            width: 15px;
+            height: 14px;
+            margin: 0 1px;
+        }
+        .main > .right-column > .ratings-row > .rate-text {
+            color: var(--main-color);
+            font-size: 11px;
+            font-weight: bold;
+            margin-left: 10px
+        }
         /* ! PRIORITY */
-        .ratings-row.top {
+        .container > .right-column .ratings-row.top {
             align-self: flex-start;
         }
-        .ratings-row.mid {
+        .container > .right-column .ratings-row.mid {
             align-self: center;
         }
-        .ratings-row.bottom {
+        .container > .right-column .ratings-row.bottom {
             align-self: flex-end;
         }
-            .stars {
-
-            }
-            .rate-text {
-
-            }
-
 .footer {
 
 }
