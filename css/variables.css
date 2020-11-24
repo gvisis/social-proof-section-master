@@ -1,0 +1,16 @@
+:root {
+    /* Colors */
+    --main-color: #502050;
+    --description-color: #937B92;
+
+    /* cards */
+    --bg-color: #fff;   
+    --name-color: #F7F2F7; 
+    --position-color: #EE68A4;
+
+    /* gaps */
+    --cards-gap: 30px;
+    --ratings-gap: 17px;
+    --cards-padding: 32px;
+    --main-padding: 165px;
+}
