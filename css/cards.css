@@ -1,0 +1,51 @@
+.footer .cards {
+    background: var(--main-color );
+    padding: 32px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+    .cards .person-row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+        .cards .person-row img {
+            width: 100%;
+            border: 0;
+            border-radius: 20px;
+        }
+        .cards .person-row > .picture {
+            width: 40px;
+            margin-right: 15px;
+        }
+        .cards .person-row .person-names {
+            display: flex;
+            flex-direction: column;
+        }
+        .cards .person-row .person-names > .name {
+            color: var(--name-color);
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+        }
+        .cards .person-row .person-names > span {
+            color: var(--position-color);
+            font-size: 0.8rem;
+            font-weight: 300;
+        }
+        
+        .footer .cards .review {
+            color: var(--name-color);
+            font-size: 0.9rem;
+            line-height: 1.6rem;
+    }
+
+    .footer > .cards.card-left{
+        margin-bottom: 30px;
+    }
+    .footer > .cards.card-mid{
+        margin: 15px 0;
+    }
+    .footer > .cards.card-right{
+        margin-top: 30px;
+    }
