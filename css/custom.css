@@ -61,7 +61,11 @@ body {
             margin-left: auto;
         }
 footer.container > .row {
-    padding: 0 0 50px;
+    padding: 0 0 30px;
+}
+.attribution {
+    text-align: center;
+    padding: 10px;
 }
 
 @media (max-width: 1080px){
